@@ -6,5 +6,7 @@ nota3=float(input("Digite a sua terceira nota do semestre: "))
 media=(nota1+nota2+nota3)/3
 if media >= 7:
     print(f"O aluno {aluno} foi a provado com a média {media} ao final do semestre")
+elif media >= 4:
+    print("o aluno está na recuperação final")
 else:
     print(f"O aluno {aluno} foi a reprovado com a média {media} ao final do semestre")
